@@ -2,6 +2,9 @@ import React from "react";
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
+import { projects } from '../../assets/projects';
+import IProject from '../../interfaces/IProject';
+import ProjectCard from '../ProjectCard';
 
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -27,6 +30,9 @@ export default function Portfolio() {
             <Container>
                 <Typography component="h2" variant="h3" className={classes.heading}>Portfolio</Typography>
                 <hr />
+                {projects.map((proj: IProject) => {
+                    return <ProjectCard key={proj.id} proj={proj} />
+                })}
 
 
             </Container>
