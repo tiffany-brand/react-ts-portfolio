@@ -1,7 +1,7 @@
 import React from "react";
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
+import Grid from '@material-ui/core/Grid';
 import { projects } from '../../assets/projects';
 import IProject from '../../interfaces/IProject';
 import ProjectCard from '../ProjectCard';
@@ -27,15 +27,15 @@ export default function Portfolio() {
 
     return (
         <div className={classes.root}>
-            <Container>
-                <Typography component="h2" variant="h3" className={classes.heading}>Portfolio</Typography>
-                <hr />
+            <Typography component="h2" variant="h3" className={classes.heading}>Portfolio</Typography>
+            <hr />
+            <Grid container spacing={3}>
+
                 {projects.map((proj: IProject) => {
                     return <ProjectCard key={proj.id} proj={proj} />
                 })}
 
-
-            </Container>
+            </Grid>
         </div>
     )
 }
