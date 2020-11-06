@@ -11,7 +11,9 @@ import headshot from '../../assets/images/tiffany-brand-sq.jpg';
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
         root: {
-            backgroundColor: "rgb(220, 233, 240)"
+            backgroundColor: "rgb(220, 233, 240)",
+            margin: theme.spacing(3),
+            padding: theme.spacing(3)
         },
         img: {
             width: "100%",
@@ -37,7 +39,7 @@ export default function About() {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
+        <section id="about" className={classes.root}>
             <Container>
                 <Typography component="h2" variant="h3" className={classes.heading}>About Me</Typography>
                 <hr />
@@ -77,7 +79,7 @@ export default function About() {
                     </Grid>
                 </Grid>
             </Container >
-        </div >
+        </section >
 
     )
 
