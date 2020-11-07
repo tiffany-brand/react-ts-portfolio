@@ -27,29 +27,37 @@ export const projects: IProject[] = [
         description: "The Gourmet Burger Logger is an application built in the MVC pattern to track crafted and devoured burgers. Users enter a burger description to add a burger to the crafted list. Clicking the Devour button marks the burger as eaten, and burgers can also be deleted.",
         image: "./images/gourmet-burger.jpg",
         tools: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "Handlebars", "MySQL"],
-        site: "https://tiffany-brand.github.io/high-card-picks-dinner/",
-        code: "https://github.com/tiffany-brand/high-card-picks-dinner",
-        group: "For this project I served as Project Manager and Front-End Designer"
+        site: "https://enigmatic-ravine-90918.herokuapp.com/",
+        code: "https://github.com/tiffany-brand/gourmet-burger-logger",
+
     },
     {
         id: 4,
-        name: "Gourmet Burger Logger",
-        description: "The Gourmet Burger Logger is an application built in the MVC pattern to track crafted and devoured burgers. Users enter a burger description to add a burger to the crafted list. Clicking the Devour button marks the burger as eaten, and burgers can also be deleted.",
-        image: "./images/gourmet-burger.jpg",
-        tools: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "Handlebars", "MySQL"],
-        site: "https://tiffany-brand.github.io/high-card-picks-dinner/",
-        code: "https://github.com/tiffany-brand/high-card-picks-dinner",
-        group: "For this project I served as Project Manager and Front-End Designer"
+        name: "Employee Management System",
+        description: "The Employee Management System is a command line application to view and manage company employees. The application accesses employee data in a MySQL database which stores employees, departments, and roles.",
+        image: "./images/employee-mgmnt.jpg",
+        tools: ["Node.js", "Inquirer", "MySQL"],
+        site: "https://youtu.be/szqkZ_KQiA4",
+        code: "https://github.com/tiffany-brand/employee-management-system",
+
     },
     {
         id: 5,
-        name: "Team Builder",
-        description: "This application aims to help build teams, foster creativity, and strengthen culture in a remote workforce. It provides a fun way to break the ice in remote meetings and help team members bond. Group project.",
-        tools: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Axios", "Express", "Handlebars", "Auth0", "Passport", "MySQL", "Sequelize", "FileStack"],
-        image: "./images/team-builder.jpg",
-        site: "https://the-team-builder.herokuapp.com/",
-        code: "https://github.com/hilbug/the-team-builders",
-        group: "For this project I served on the Back-End Team, tasked with authentication, API structure, image handling, and database calls."
+        name: "Work Day Scheduler",
+        description: "A calendar application that allows a user to plan hourly time blocks in a day. The application displays each hourly block from 9 am to 5 pm and users can save events in each time block.",
+        tools: ["HTML", "CSS", "JavaScript", "MomentJS"],
+        image: "./images/workday-scheduler.jpg",
+        site: "https://tiffany-brand.github.io/work-day-timeblock-planner/",
+        code: "https://github.com/tiffany-brand/work-day-timeblock-planner",
+    },
+    {
+        id: 6,
+        name: "Weather Dashboard",
+        description: "This weather dashboard project allows the user to search for cities and view current weather conditions and a 5 day forecast with data from the OpenWeather API.",
+        tools: ["HTML", "CSS", "JavaScript", "Bootstrap", "OpenWeather API", "MomentJS"],
+        image: "./images/weather-dash.jpg",
+        site: "https://tiffany-brand.github.io/weather-conditions-dashboard/",
+        code: "https://github.com/tiffany-brand/weather-conditions-dashboard",
     },
 
 ]
