@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
+import IconButton from '@material-ui/core/IconButton';
 import headshot from '../../assets/images/tiffany-brand-sq.jpg';
 
 
@@ -14,6 +15,10 @@ const useStyles = makeStyles((theme: Theme) =>
             backgroundColor: "rgb(220, 233, 240)",
             margin: theme.spacing(3),
             padding: theme.spacing(3)
+        },
+        container: {
+            paddingBottom: theme.spacing(4),
+
         },
         img: {
             width: "100%",
@@ -28,7 +33,21 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         textBlock: {
             margin: theme.spacing(1)
+        },
+        contact: {
+            paddingLeft: theme.spacing(1),
+            margin: 0
+        },
+        icons: {
+            fontSize: "4rem",
+        },
+        iconGroup: {
+            textAlign: "center"
+        },
+        email: {
+            color: theme.palette.text.secondary,
         }
+
 
     })
 );
@@ -39,21 +58,35 @@ export default function About() {
 
     return (
         <section id="about" className={classes.root}>
-            <Container>
+            <Container className={classes.container}>
                 <Typography component="h2" variant="h3" className={classes.heading}>About Me</Typography>
                 <hr />
                 <Grid container spacing={2}>
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={12} sm={5}>
                         <Paper className={classes.paper}>
 
                             <img src={headshot}
                                 className={classes.img} alt="Tiffany Brand headshot" />
                         </Paper>
 
+                        <Grid container spacing={2}>
+                            <Grid item xs={12}>
+                                <Typography variant="h5" component="h3" className={classes.heading}>
+                                    Contact me:
+                                </Typography>
+                                <Typography className={classes.contact} variant="body1" paragraph >
+                                    <small>Phone: (603) 978-8581</small>
+                                </Typography>
+                                <Typography className={classes.contact} variant="body1" paragraph >
+                                    <small>Email: <a className={classes.email} href="mailto:tiffanylbrand@outlook.com">TiffanyLBrand@outlook.com</a></small>
+                                </Typography>
+                            </Grid>
+                        </Grid>
+
                     </Grid>
-                    <Grid item xs={12} sm={8} >
+                    <Grid item xs={12} sm={7} >
                         <div className={classes.textBlock}>
-                            <Typography variant="body1" paragraph={true} >
+                            <Typography variant="body1" paragraph >
                                 Full stack web developer with a background in educational technology management,
                                 committed to
                                 team collaboration and continuous learning in responsive web design. Known as a creative
@@ -61,7 +94,7 @@ export default function About() {
                                 front
                                 and back end development.
                         </Typography>
-                            <Typography variant="body1" paragraph={true}>
+                            <Typography variant="body1" paragraph>
                                 In my current studies in the University of New Hampshire’s certificate program in full
                                 stack
                                 web development, I am continuing to build my
@@ -69,14 +102,37 @@ export default function About() {
                                 design. I
                                 thoroughly enjoy collaborating with my teams to bring our software visions to life.
                         </Typography>
-                            <Typography variant="body1" paragraph={true}>
+                            <Typography variant="body1" paragraph>
                                 When I'm not coding, you'll find me hiking New Hampshire's beautiful trails, taking in
                                 some
                                 musical theater, or tap dancing!
                         </Typography>
                         </div>
+                        <Grid container spacing={2} className={classes.iconGroup}>
+                            <Grid item xs={4}>
+                                {/* <a className={classes.icons} href="https://github.com/tiffany-brand" title="GitHub"><i
+                                    className="fab fa-github-square"></i></a> */}
+                                <IconButton color="primary" href="https://github.com/tiffany-brand" title="GitHub" target="_blank" >
+                                    <i className={`fab fa-github-square ${classes.icons}`}></i>
+                                </IconButton>
+                            </Grid>
+                            <Grid item xs={4} >
+                                <IconButton color="primary" href="https://www.linkedin.com/in/tiffanybrand/" title="LinkedIn" target="_blank">
+                                    <i className={`fab fa-linkedin ${classes.icons}`}></i>
+                                </IconButton>
+
+                            </Grid>
+                            <Grid item xs={4} >
+                                <IconButton color="primary" href="./resume/Tiffany-Brand-Resume.pdf" title="Resume" target="_blank" download>
+                                    <i className={`fas fa-sticky-note ${classes.icons}`}></i>
+                                </IconButton>
+
+                            </Grid>
+                        </Grid>
                     </Grid>
                 </Grid>
+
+
             </Container >
         </section >
 

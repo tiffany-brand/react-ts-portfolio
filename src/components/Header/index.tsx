@@ -29,7 +29,7 @@ export default function Header() {
     const location = useLocation();
 
     return (
-        <div className={classes.root}>
+        <header className={classes.root}>
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
@@ -40,7 +40,7 @@ export default function Header() {
                     <Button color={location.pathname === "/portfolio" ? "secondary" : "inherit"} component={RouterLink} to="/portfolio">Portfolio</Button>
                 </Toolbar>
             </AppBar>
-        </div>
+        </header>
 
     )
 
