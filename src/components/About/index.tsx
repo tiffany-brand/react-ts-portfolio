@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme: Theme) =>
         },
         img: {
             width: "100%",
-            // border: "3px solid white"
         },
         paper: {
             padding: theme.spacing(1),
@@ -53,7 +52,7 @@ export default function About() {
 
                     </Grid>
                     <Grid item xs={12} sm={8} >
-                        <div className="textBlock">
+                        <div className={classes.textBlock}>
                             <Typography variant="body1" paragraph={true} >
                                 Full stack web developer with a background in educational technology management,
                                 committed to

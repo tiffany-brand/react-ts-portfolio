@@ -36,7 +36,7 @@ export default function Header() {
                         Tiffany L. Brand
                      </Typography>
                     <Button color={location.pathname === "/" ? "secondary" : "inherit"} component={RouterLink} to="/">About</Button>
-                    <Button color={location.pathname === "/skills" ? "secondary" : "inherit"}>Skills</Button>
+                    <Button color={location.pathname === "/skills" ? "secondary" : "inherit"} component={RouterLink} to="/skills">Skills</Button>
                     <Button color={location.pathname === "/portfolio" ? "secondary" : "inherit"} component={RouterLink} to="/portfolio">Portfolio</Button>
                 </Toolbar>
             </AppBar>
