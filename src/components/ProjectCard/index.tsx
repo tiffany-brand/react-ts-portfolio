@@ -46,16 +46,27 @@ const ProjectCard: React.FC<IProps> = (props: IProps) => {
                         <Typography gutterBottom variant="h5" component="h2">
                             {props.proj.name}
                         </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
+                        <Typography variant="body2" color="textSecondary" component="p" paragraph>
                             {props.proj.description}
                         </Typography>
+                        <Typography variant="h6" component="h3" color="textSecondary">Tools Used</Typography>
+                        <Typography variant="body2" color="textSecondary" component="p" paragraph>
+                            {props.proj.tools.join(" | ")}
+                        </Typography>
+                        {props.proj.group &&
+                            <div>
+                                <Typography variant="h6" component="h3" color="textSecondary">Group Role</Typography>
+                                <Typography variant="body2" color="textSecondary" component="p" paragraph>
+                                    {props.proj.group}
+                                </Typography>
+                            </div>}
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary" >
+                    <Button size="small" color="primary" href={props.proj.site} target="_blank">
                         Site
         </Button>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" href={props.proj.code} target="_blank">
                         Code
         </Button>
                 </CardActions>
