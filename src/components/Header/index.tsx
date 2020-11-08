@@ -36,9 +36,9 @@ export default function Header() {
                     <Typography variant="h6" className={classes.title}>
                         Tiffany L. Brand
                      </Typography>
-                    <Button color={location.pathname === "/" ? "secondary" : "inherit"} component={RouterLink} to={HOME_PATH}>About</Button>
-                    <Button color={location.pathname === "/skills" ? "secondary" : "inherit"} component={RouterLink} to={SKILLS_PATH}>Skills</Button>
-                    <Button color={location.pathname === "/portfolio" ? "secondary" : "inherit"} component={RouterLink} to={PORTFOLIO_PATH}>Portfolio</Button>
+                    <Button color={location.pathname === HOME_PATH ? "secondary" : "inherit"} component={RouterLink} to={HOME_PATH}>About</Button>
+                    <Button color={location.pathname === SKILLS_PATH ? "secondary" : "inherit"} component={RouterLink} to={SKILLS_PATH}>Skills</Button>
+                    <Button color={location.pathname === PORTFOLIO_PATH ? "secondary" : "inherit"} component={RouterLink} to={PORTFOLIO_PATH}>Portfolio</Button>
                 </Toolbar>
             </AppBar>
         </header>
