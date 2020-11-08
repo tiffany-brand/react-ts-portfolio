@@ -21,18 +21,21 @@ const theme = createMuiTheme({
   },
 });
 
+// Entry point - Portfolio App and Routes
 function App() {
   return (
     <div>
       <Router>
         <ThemeProvider theme={theme}>
           <Header />
-          <Switch>
-            <Route exact path={HOME_PATH} component={Home} />
-            <Route exact path={SKILLS_PATH} component={Skills} />
-            <Route exact path={PORTFOLIO_PATH} component={Portfolio} />
-            <Route component={Home} />
-          </Switch>
+          <main>
+            <Switch>
+              <Route exact path={HOME_PATH} component={Home} />
+              <Route exact path={SKILLS_PATH} component={Skills} />
+              <Route exact path={PORTFOLIO_PATH} component={Portfolio} />
+              <Route component={Home} />
+            </Switch>
+          </main>
           <Footer />
         </ThemeProvider>
       </Router>

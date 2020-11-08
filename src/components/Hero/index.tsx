@@ -19,18 +19,19 @@ const useStyles = makeStyles((theme: Theme) =>
     })
 );
 
+// Hero image and page title
 export default function Hero() {
 
     const classes = useStyles();
 
     return (
-        <div className={classes.hero}>
+        <section className={classes.hero}>
             <Container>
                 <div className={classes.title}>
                     <Typography variant="h2" component="h1">Tiffany Brand</Typography>
                     <Typography component="h2" variant="h5">Full Stack Web Developer</Typography>
                 </div>
             </Container>
-        </div>
+        </section>
     )
 }

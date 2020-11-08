@@ -39,7 +39,7 @@ export default function Skills() {
     const classes = useStyles();
 
     return (
-        <section id="about" className={classes.root}>
+        <section className={classes.root}>
             <Container>
                 <Typography component="h2" variant="h3" className={classes.heading}>Skills</Typography>
                 <hr />

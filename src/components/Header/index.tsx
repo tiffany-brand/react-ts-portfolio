@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme: Theme) =>
     })
 );
 
+// Header with Navigation
 export default function Header() {
 
     const classes = useStyles();

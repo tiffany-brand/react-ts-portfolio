@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
     })
 );
-
+// About component with contact links
 export default function About() {
 
     const classes = useStyles();
@@ -98,7 +98,7 @@ export default function About() {
                                 In my current studies in the University of New Hampshire’s certificate program in full
                                 stack
                                 web development, I am continuing to build my
-                                skills in HTML & CSS, JavaScript, Node.js, MySQL, MongoDB, React.js, and responsive web
+                                skills in HTML & CSS, JavaScript, TypeScript, Node.js, MySQL, MongoDB, React.js, and responsive web
                                 design. I
                                 thoroughly enjoy collaborating with my teams to bring our software visions to life.
                         </Typography>
@@ -110,8 +110,7 @@ export default function About() {
                         </div>
                         <Grid container spacing={2} className={classes.iconGroup}>
                             <Grid item xs={4}>
-                                {/* <a className={classes.icons} href="https://github.com/tiffany-brand" title="GitHub"><i
-                                    className="fab fa-github-square"></i></a> */}
+
                                 <IconButton color="primary" href="https://github.com/tiffany-brand" title="GitHub" target="_blank" >
                                     <i className={`fab fa-github-square ${classes.icons}`}></i>
                                 </IconButton>

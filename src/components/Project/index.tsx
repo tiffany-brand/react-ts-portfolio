@@ -28,7 +28,7 @@ interface IProps {
     proj: IProject,
 }
 
-
+// Project cards to render a single project
 const Project: React.FC<IProps> = (props: IProps) => {
 
     const classes = useStyles();

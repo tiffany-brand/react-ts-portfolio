@@ -21,12 +21,13 @@ const useStyles = makeStyles((theme: Theme) =>
     })
 );
 
+// Portfolio page with dynamically rendered projects
 export default function Portfolio() {
 
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
+        <section className={classes.root}>
             <Typography component="h2" variant="h3" className={classes.heading}>Portfolio</Typography>
             <hr />
             <Grid container spacing={3}>
@@ -36,6 +37,6 @@ export default function Portfolio() {
                 })}
 
             </Grid>
-        </div>
+        </section>
     )
 }
