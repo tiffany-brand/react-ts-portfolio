@@ -1,4 +1,4 @@
-# React TypeScript Employee Directory
+# React TypeScript Portfolio
 
 [![License: MIT](https://img.shields.io/github/license/tiffany-brand/react-ts-portfolio?style=plastic)](./LICENSE)
 
