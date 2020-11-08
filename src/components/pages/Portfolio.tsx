@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { projects } from '../../assets/projects';
 import IProject from '../../interfaces/IProject';
-import ProjectCard from '../ProjectCard';
+import Project from '../Project';
 
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -32,7 +32,7 @@ export default function Portfolio() {
             <Grid container spacing={3}>
 
                 {projects.map((proj: IProject) => {
-                    return <ProjectCard key={proj.id} proj={proj} />
+                    return <Project key={proj.id} proj={proj} />
                 })}
 
             </Grid>

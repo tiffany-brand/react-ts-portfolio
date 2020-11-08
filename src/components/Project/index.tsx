@@ -29,7 +29,7 @@ interface IProps {
 }
 
 
-const ProjectCard: React.FC<IProps> = (props: IProps) => {
+const Project: React.FC<IProps> = (props: IProps) => {
 
     const classes = useStyles();
 
@@ -76,4 +76,4 @@ const ProjectCard: React.FC<IProps> = (props: IProps) => {
     )
 }
 
-export default ProjectCard;
+export default Project;
