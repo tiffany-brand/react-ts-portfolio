@@ -68,5 +68,23 @@ export const projects: IProject[] = [
         site: "https://tiffany-brand.github.io/weather-conditions-dashboard/",
         code: "https://github.com/tiffany-brand/weather-conditions-dashboard",
     },
+    {
+        id: 8,
+        name: "Password Generator",
+        description: "This project is a password generator which creates secure passwords based on criteria. Users can choose the types of characters to include in the password as well as the length of the password by filling in the presented form.",
+        tools: ["HTML", "CSS", "JavaScript"],
+        image: "./images/pass-gen.jpg",
+        site: "https://tiffany-brand.github.io/secure-password-generator/",
+        code: "https://github.com/tiffany-brand/secure-password-generator",
+    },
+    {
+        id: 9,
+        name: "Code Quiz",
+        description: "This project is a timed JavaScript code quiz with a high score hall of fame.",
+        tools: ["HTML", "CSS", "JavaScript"],
+        image: "./images/quiz.jpg",
+        site: "https://tiffany-brand.github.io/timed-javascript-code-quiz/",
+        code: "https://github.com/tiffany-brand/timed-javascript-code-quiz",
+    },
 
 ]
