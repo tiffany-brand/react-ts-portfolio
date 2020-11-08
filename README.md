@@ -29,7 +29,9 @@ SO THAT I may demonstrate my development skills to potential employers
 
 ## Screenshots
 
-
+![screenshot-about](https://user-images.githubusercontent.com/16748389/98456231-1004a080-2149-11eb-8f1c-c1b051a44f1b.JPG)
+![screenshot-portfolio](https://user-images.githubusercontent.com/16748389/98456232-109d3700-2149-11eb-8437-6345e51ca68e.JPG)
+![screenshot-skills](https://user-images.githubusercontent.com/16748389/98456233-109d3700-2149-11eb-9b45-b39579b3ed2d.JPG)
 
 ## Technologies
 
