@@ -22,6 +22,15 @@ export const projects: IProject[] = [
         group: "For this project I served as Project Manager and Front-End Designer"
     },
     {
+        id: 7,
+        name: "Employee Directory",
+        description: "View a table of basic information about employees (employee data loaded from the Random User API). The user can sort the employees by first name, last name, gender, email address, phone number, city or state. Employees can also be filtered on those same fields by entering text into the search field.",
+        tools: ["HTML", "CSS", "TypeScript", "React.js", "Material UI", "Random User API"],
+        image: "./images/emp-dir.jpg",
+        site: "https://tiffany-brand.github.io/react-ts-employee-directory/",
+        code: "https://github.com/tiffany-brand/react-ts-employee-directory",
+    },
+    {
         id: 3,
         name: "Gourmet Burger Logger",
         description: "The Gourmet Burger Logger is an application built in the MVC pattern to track crafted and devoured burgers. Users enter a burger description to add a burger to the crafted list. Clicking the Devour button marks the burger as eaten, and burgers can also be deleted.",
