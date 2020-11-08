@@ -5,7 +5,7 @@ import Portfolio from './components/pages/Portfolio';
 import Skills from './components/pages/Skills';
 import Footer from './components/Footer';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
 import { HOME_PATH, SKILLS_PATH, PORTFOLIO_PATH } from "./pathnames";
 
 
@@ -27,9 +27,11 @@ function App() {
       <Router>
         <ThemeProvider theme={theme}>
           <Header />
-          <Route exact path={HOME_PATH} component={Home} />
-          <Route exact path={SKILLS_PATH} component={Skills} />
-          <Route exact path={PORTFOLIO_PATH} component={Portfolio} />
+          <HashRouter>
+            <Route exact path={HOME_PATH} component={Home} />
+            <Route exact path={SKILLS_PATH} component={Skills} />
+            <Route exact path={PORTFOLIO_PATH} component={Portfolio} />
+          </HashRouter>
           <Footer />
         </ThemeProvider>
       </Router>
