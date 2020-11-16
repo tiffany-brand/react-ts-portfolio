@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import IconButton from '@material-ui/core/IconButton';
 import headshot from '../../assets/images/tiffany-brand-sq.jpg';
+import { Fade } from 'react-awesome-reveal';
 
 
 
@@ -63,51 +64,59 @@ export default function About() {
                 <hr />
                 <Grid container spacing={2}>
                     <Grid item xs={12} sm={5}>
-                        <Paper className={classes.paper}>
+                        <Fade>
 
-                            <img src={headshot}
-                                className={classes.img} alt="Tiffany Brand headshot" />
-                        </Paper>
+                            <Paper className={classes.paper}>
+
+                                <img src={headshot}
+                                    className={classes.img} alt="Tiffany Brand headshot" />
+                            </Paper>
+                        </Fade>
 
                         <Grid container spacing={2}>
                             <Grid item xs={12}>
-                                <Typography variant="h5" component="h3" className={classes.heading}>
-                                    Contact me:
+                                <Fade>
+                                    <Typography variant="h5" component="h3" className={classes.heading}>
+                                        Contact me:
                                 </Typography>
-                                <Typography className={classes.contact} variant="body1" paragraph >
-                                    <small>Phone: (603) 978-8581</small>
-                                </Typography>
-                                <Typography className={classes.contact} variant="body1" paragraph >
-                                    <small>Email: <a className={classes.email} href="mailto:tiffanylbrand@outlook.com">TiffanyLBrand@outlook.com</a></small>
-                                </Typography>
+
+                                    <Typography className={classes.contact} variant="body1" paragraph >
+                                        <small>Phone: (603) 978-8581</small>
+                                    </Typography>
+                                    <Typography className={classes.contact} variant="body1" paragraph >
+                                        <small>Email: <a className={classes.email} href="mailto:tiffanylbrand@outlook.com">TiffanyLBrand@outlook.com</a></small>
+                                    </Typography>
+                                </Fade>
                             </Grid>
                         </Grid>
 
                     </Grid>
                     <Grid item xs={12} sm={7} >
-                        <div className={classes.textBlock}>
-                            <Typography variant="body1" paragraph >
-                                Full stack web developer with a background in educational technology management,
-                                committed to
-                                team collaboration and continuous learning in responsive web design. Known as a creative
-                                problem solver, I am persistent in finding solutions and am seeking new challenges in
-                                front
-                                and back end development.
+                        <Fade>
+                            <div className={classes.textBlock}>
+                                <Typography variant="body1" paragraph >
+                                    Full stack web developer with a background in educational technology management,
+                                    committed to
+                                    team collaboration and continuous learning in responsive web design. Known as a creative
+                                    problem solver, I am persistent in finding solutions and am seeking new challenges in
+                                    front
+                                    and back end development.
                         </Typography>
-                            <Typography variant="body1" paragraph>
-                                In my current studies in the University of New Hampshire’s certificate program in full
-                                stack
-                                web development, I am continuing to build my
-                                skills in HTML & CSS, JavaScript, TypeScript, Node.js, MySQL, MongoDB, React.js, and responsive web
-                                design. I
-                                thoroughly enjoy collaborating with my teams to bring our software visions to life.
+                                <Typography variant="body1" paragraph>
+                                    In my current studies in the University of New Hampshire’s certificate program in full
+                                    stack
+                                    web development, I am continuing to build my
+                                    skills in HTML & CSS, JavaScript, TypeScript, Node.js, MySQL, MongoDB, React.js, and responsive web
+                                    design. I
+                                    thoroughly enjoy collaborating with my teams to bring our software visions to life.
                         </Typography>
-                            <Typography variant="body1" paragraph>
-                                When I'm not coding, you'll find me hiking New Hampshire's beautiful trails, taking in
-                                some
-                                musical theater, or tap dancing!
+                                <Typography variant="body1" paragraph>
+                                    When I'm not coding, you'll find me hiking New Hampshire's beautiful trails, taking in
+                                    some
+                                    musical theater, or tap dancing!
                         </Typography>
-                        </div>
+                            </div>
+                        </Fade>
                         <Grid container spacing={2} className={classes.iconGroup}>
                             <Grid item xs={4}>
 
