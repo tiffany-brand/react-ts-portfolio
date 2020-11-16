@@ -22,6 +22,15 @@ export const projects: IProject[] = [
         group: "For this project I served as Project Manager and Front-End Designer"
     },
     {
+        id: 10,
+        name: "Google Books Search and Save",
+        description: "Google Books Search and Save is a MERN stack application to search for books using the Google Books API. Users can search for books with the search form. Users can also save a book, which will then appear on the saved books page. Saved books can be viewed or deleted from the database.The application also implements Socket.io messaging to alert all connected users when a book has been saved.",
+        tools: ["HTML", "CSS", "JavaScript", "React.js", "React Router", "Material UI", "Node.js", "Express", "MongoDB", "Mongoose"],
+        image: "./images/gb-search-save.jpg",
+        site: "https://gb-search-n-save.herokuapp.com/",
+        code: "https://github.com/tiffany-brand/google-books-search-and-save",
+    },
+    {
         id: 7,
         name: "Employee Directory",
         description: "View a table of basic information about employees (employee data loaded from the Random User API). The user can sort the employees by first name, last name, gender, email address, phone number, city or state. Employees can also be filtered on those same fields by entering text into the search field.",
