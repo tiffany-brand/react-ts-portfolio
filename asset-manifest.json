@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-ts-portfolio/static/css/main.2a251476.chunk.css",
-    "main.js": "/react-ts-portfolio/static/js/main.981caecb.chunk.js",
-    "main.js.map": "/react-ts-portfolio/static/js/main.981caecb.chunk.js.map",
-    "runtime-main.js": "/react-ts-portfolio/static/js/runtime-main.97e2d5f8.js",
-    "runtime-main.js.map": "/react-ts-portfolio/static/js/runtime-main.97e2d5f8.js.map",
-    "static/js/2.2c12d283.chunk.js": "/react-ts-portfolio/static/js/2.2c12d283.chunk.js",
-    "static/js/2.2c12d283.chunk.js.map": "/react-ts-portfolio/static/js/2.2c12d283.chunk.js.map",
-    "static/js/3.533b40a3.chunk.js": "/react-ts-portfolio/static/js/3.533b40a3.chunk.js",
-    "static/js/3.533b40a3.chunk.js.map": "/react-ts-portfolio/static/js/3.533b40a3.chunk.js.map",
+    "main.css": "/react-ts-portfolio/static/css/main.9a9dfa89.chunk.css",
+    "main.js": "/react-ts-portfolio/static/js/main.1d91e41d.chunk.js",
+    "main.js.map": "/react-ts-portfolio/static/js/main.1d91e41d.chunk.js.map",
+    "runtime-main.js": "/react-ts-portfolio/static/js/runtime-main.9ca8ff80.js",
+    "runtime-main.js.map": "/react-ts-portfolio/static/js/runtime-main.9ca8ff80.js.map",
+    "static/js/2.28f20fc1.chunk.js": "/react-ts-portfolio/static/js/2.28f20fc1.chunk.js",
+    "static/js/2.28f20fc1.chunk.js.map": "/react-ts-portfolio/static/js/2.28f20fc1.chunk.js.map",
+    "static/js/3.d7c5298a.chunk.js": "/react-ts-portfolio/static/js/3.d7c5298a.chunk.js",
+    "static/js/3.d7c5298a.chunk.js.map": "/react-ts-portfolio/static/js/3.d7c5298a.chunk.js.map",
     "index.html": "/react-ts-portfolio/index.html",
-    "static/css/main.2a251476.chunk.css.map": "/react-ts-portfolio/static/css/main.2a251476.chunk.css.map",
-    "static/js/2.2c12d283.chunk.js.LICENSE.txt": "/react-ts-portfolio/static/js/2.2c12d283.chunk.js.LICENSE.txt",
+    "static/css/main.9a9dfa89.chunk.css.map": "/react-ts-portfolio/static/css/main.9a9dfa89.chunk.css.map",
+    "static/js/2.28f20fc1.chunk.js.LICENSE.txt": "/react-ts-portfolio/static/js/2.28f20fc1.chunk.js.LICENSE.txt",
     "static/media/longshot-web.f6e2e85d.jpg": "/react-ts-portfolio/static/media/longshot-web.f6e2e85d.jpg",
     "static/media/look-out-blue.4aedd663.jpg": "/react-ts-portfolio/static/media/look-out-blue.4aedd663.jpg",
     "static/media/tiffany-brand-sq.73c92ba7.jpg": "/react-ts-portfolio/static/media/tiffany-brand-sq.73c92ba7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.97e2d5f8.js",
-    "static/js/2.2c12d283.chunk.js",
-    "static/css/main.2a251476.chunk.css",
-    "static/js/main.981caecb.chunk.js"
+    "static/js/runtime-main.9ca8ff80.js",
+    "static/js/2.28f20fc1.chunk.js",
+    "static/css/main.9a9dfa89.chunk.css",
+    "static/js/main.1d91e41d.chunk.js"
   ]
 }
