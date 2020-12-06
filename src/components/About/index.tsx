@@ -131,7 +131,7 @@ export default function About() {
 
                             </Grid>
                             <Grid item xs={4} >
-                                <IconButton color="primary" href="./resume/Tiffany-Brand-Resume.pdf" title="Resume" target="_blank" download>
+                                <IconButton color="primary" href="/resume/Tiffany-Brand-Resume.pdf" title="Resume" target="_blank" download>
                                     <i className={`fas fa-sticky-note ${classes.icons}`}></i>
                                 </IconButton>
 
