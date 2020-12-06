@@ -39,7 +39,7 @@ const Project: React.FC<IProps> = (props: IProps) => {
                 <CardActionArea>
                     <CardMedia
                         className={classes.media}
-                        image={props.proj.image}
+                        image={process.env.PUBLIC_URL + props.proj.image}
                         title={props.proj.name}
                     />
                     <CardContent>
