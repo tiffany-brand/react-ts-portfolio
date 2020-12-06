@@ -2,6 +2,16 @@ import IProject from '../interfaces/IProject';
 
 export const projects: IProject[] = [
     {
+        id: 11,
+        name: "Vedge-In",
+        description: "Broaden your veggie horizons with the Vedge-In Challenge! Vedge-In is an application designed to help users eat healthier by encouraging them to increase the amount and diversity of vegetables in their diet. Log your veggie intake, challenge your friends, and watch you and your community get stronger and healthier! Group project.",
+        tools: ["HTML", "CSS", "TypeScript", "React.js", "React Router", "Material UI", "Auth0", "Nest.js", "TypeORM", "MySQL"],
+        image: "/images/vedge-in.jpg",
+        site: "https://vedge-in.herokuapp.com/",
+        code: "https://github.com/tiffany-brand/veg-out",
+        group: "For this application I served as project lead and worked on authentication via Auth0 and front end functionality."
+    },
+    {
         id: 1,
         name: "Team Builder",
         description: "This application aims to help build teams, foster creativity, and strengthen culture in a remote workforce. It provides a fun way to break the ice in remote meetings and help team members bond. Group project.",
