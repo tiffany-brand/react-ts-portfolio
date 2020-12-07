@@ -98,7 +98,7 @@ export default function About() {
                                     Full stack web developer with a background in educational technology management,
                                     committed to
                                     team collaboration and continuous learning in responsive web design. Known as a creative
-                                    problem solver, I am persistent in finding solutions and am seeking new challenges in
+                                    problem solver, leader, and mentor. I am persistent in finding solutions and am seeking new challenges in
                                     front
                                     and back end development.
                         </Typography>
