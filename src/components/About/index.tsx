@@ -103,10 +103,9 @@ export default function About() {
                                     and back end development.
                         </Typography>
                                 <Typography variant="body1" paragraph>
-                                    In my current studies in the University of New Hampshire’s certificate program in full
-                                    stack
-                                    web development, I am continuing to build my
-                                    skills in HTML & CSS, JavaScript, TypeScript, Node.js, MySQL, MongoDB, React.js, and responsive web
+                                    Since completing a certificate in Full Stack Web Development at the University of New Hampshire,
+                                    I am continuing to build my
+                                    skills in HTML & CSS, JavaScript, TypeScript, Node.js, MySQL, MongoDB, React.js, RESTful APIs, and responsive web
                                     design. I
                                     thoroughly enjoy collaborating with my teams to bring our software visions to life.
                         </Typography>
