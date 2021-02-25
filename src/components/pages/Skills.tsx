@@ -54,13 +54,13 @@ export default function Skills() {
                                     Front End
                             </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p" paragraph>
-                                    HTML | CSS | Bootstrap | Materialize | Material UI | JavaScript | jQuery | React
+                                    HTML | CSS | JavaScript | TypeScript | Bootstrap | Material UI | jQuery | React
                             </Typography>
                                 <Typography gutterBottom variant="h5" component="h2" color="primary">
                                     Back End
                             </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p" paragraph>
-                                    Node JS | Express JS | TypeScript | MySQL | Sequelize | Mongo DB | Mongoose | Heroku
+                                    Node.js | Express | MySQL | Sequelize | MongoDB | Mongoose | Heroku
                             </Typography>
                                 <Typography gutterBottom variant="h5" component="h2" color="primary">
                                     Business Skills
