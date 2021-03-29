@@ -95,7 +95,7 @@ export default function About() {
                         <Fade>
                             <div className={classes.textBlock}>
                                 <Typography variant="body1" paragraph >
-                                    Full stack web developer with a background in technology coordination and management,
+                                    Full stack web developer with a background in technology coordination and management in the education sector,
                                     committed to
                                     team collaboration and continuous learning in responsive web design. Known as a creative
                                     problem solver, leader, and mentor. I am persistent in finding solutions and am seeking new challenges in
